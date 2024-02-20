@@ -34,13 +34,16 @@ function Index() {
 
   return (
     <div>
+      
       <Head>
-        <title>xDuke</title>
+        <title>Thug Applications</title>
         <meta charSet="UTF-8" />
         <meta
           name="viewport"
           content="initial-scale=1.0, width=device-width, shrink-to-fit=no"
         />
+            <link rel="icon" href="/img/thugapps.png/" />
+        
         {/* Coloque suas outras meta tags aqui */}
       </Head>
 

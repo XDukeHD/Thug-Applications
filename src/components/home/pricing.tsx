@@ -42,12 +42,15 @@ export function Pricing() {
 
               <h3 style={{ backgroundColor: '#000' }}>Sistema de vendas FREE</h3>
               <h4 style={{ color: '#fff' }}>R$0.00<span> </span></h4>
+              <h5 style={{ color: '#fff' }}>Hospedado Gratuitamente</h5>
+              <br></br>
               <ul>
 
-                <li style={{ color: '#fff' }}><span style={{ color: '#4CAF50' }}>✔</span> 5 comandos</li>
-                <li style={{ color: '#fff' }}><span style={{ color: '#4CAF50' }}>✔</span> moderação</li>
-                <li style={{ color: '#fff' }}><span style={{ color: '#4CAF50' }}>✔</span> suporte 24/7</li>
-                <li className="na"><span style={{ color: '#FF0000' }}>x</span>Sem acesso aos arquivos</li>
+                <li style={{ color: '#fff' }}><span style={{ color: '#4CAF50' }}>✔</span> Painel de Controle para Gerenciamento de vendas</li>
+                <li style={{ color: '#fff' }}><span style={{ color: '#4CAF50' }}>✔</span> Totalmente personalizável</li>
+                <li style={{ color: '#fff' }}><span style={{ color: '#4CAF50' }}>✔</span> Integração Mercado Pago</li>
+                <li style={{ color: '#fff' }}><span style={{ color: '#4CAF50' }}>✔</span> Sistema de Tickets</li>
+                <li className="na"><span style={{ color: '#FF0000' }}>x</span> Sem acesso aos arquivos</li>
               </ul>
               <div className="btn-wrap" style={{ backgroundColor: '#1a1a18' }}>
                 <a href="https://discord.gg/9QVvGMsqbW" className="btn-buy">Criar</a>
@@ -55,10 +58,10 @@ export function Pricing() {
 
             </div>
           </div> 
-          <div className="image col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+          {/*<div className="image col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
             <img src="/img/plans.svg" alt="" className="img-fluid" style={{ maxWidth: "500px", height: "auto" }} />
           </div>
-
+      */}
         </div>
       </div>
     </section>

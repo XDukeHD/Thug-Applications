@@ -10,9 +10,9 @@ export function Navbar() {
             <h1 className="logo mr-auto">
               <a href="/">
                 <img
-                  src="/img/robo.png"
+                  src="/img/thugapps.png"
                   alt="Thug Logo"
-                  style={{width: '80px', maxHeight: '150px' }}
+                  style={{width: '100px', maxHeight: '150px' }}
                 />
               </a>
             </h1>
