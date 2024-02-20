@@ -1,0 +1,50 @@
+{
+  "private": false,
+  "name": "portfolio",
+  "version": "1.0",
+  "description": "My portfolio",
+  "author": "XDuke (Tulio Zanella)",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XDukeHD/Portfolio"
+  },
+  "keywords": [
+    "portfolio",
+    "nextjs",
+    "reactjs",
+    "typescript",
+    "chakra-ui",
+    "bootstrap"
+  ],
+  "bugs": {
+    "url": "https://xduke.tech/bio"
+  },
+  "type": "module",
+  "homepage": "https://xduke.tech",
+  "scripts": {
+    "dev": "next -p 80",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.0",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.1",
+    "critters": "^0.0.20",
+    "jquery": "^3.7.1",
+    "next": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1"
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.4",
+    "@types/jquery": "^3.5.17",
+    "@types/node": "^17.0.43",
+    "@types/react": "^18.0.12",
+    "@types/react-dom": "^18.0.5",
+    "typescript": "^4.7.3"
+  }
+}
